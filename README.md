@@ -29,3 +29,6 @@ Terraform deployment (in progress)
 | .lnk           | lnkparser -j  |
 | .exe / .elf           | objdump, pestudio, readelf  |
 | .js           |  |
+
+
+decoder => https://github.com/DidierStevens/DidierStevensSuite (base64dump)
