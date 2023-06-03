@@ -7,6 +7,8 @@ make an integration of malware static analysis in Cortex XDR as an API with back
 
 pdf have a part of filling for behavioral analaysis
 
+For malware category and dll add search chatgpt with openai API
+
 dev external analysis with API like VT & Tria.ge sandbox
 
 Terraform deployment (in progress)
