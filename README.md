@@ -18,3 +18,12 @@ Terraform deployment (in progress)
 
 ## Tools
 
+| File Extension | Tools          |
+| -------------- | -------------- |
+| generic           | file , strings | grep, sha256sum, md5sum, xxd, stringsifter        |
+| .docx / .xlsx  / .vbs        | oledump, oleid, olevba,  oleobj, msodde        |
+|   .zip       | zipdump       |
+| .pdf           |  rtfobj,  pdf-parser.py, peepdf, pdfid   |
+| .lnk           | lnkparser -j  |
+| .exe / .elf           | objdump, pestudio, readelf  |
+| .js           |  |
