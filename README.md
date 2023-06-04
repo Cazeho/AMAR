@@ -22,7 +22,7 @@ Terraform deployment (in progress)
 
 | File Extension | Tools          |
 | -------------- | -------------- |
-| generic           | file , strings, grep, sha256sum, md5sum, xxd, stringsifter |
+| generic           | file , strings, grep, sha256sum, md5sum, xxd, stringsifter, binwalk |
 | .docx / .xlsx  / .vbs        | oledump, oleid, olevba, oleobj, msodde, oletools        |
 |   .zip       | zipdump       |
 | .pdf           |  rtfobj,  pdf-parser.py, peepdf, pdfid   |
