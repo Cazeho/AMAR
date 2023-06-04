@@ -32,3 +32,5 @@ Terraform deployment (in progress)
 
 
 decoder => https://github.com/DidierStevens/DidierStevensSuite (base64dump)
+
+scan file => pescan, clamscan
