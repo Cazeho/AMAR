@@ -38,3 +38,13 @@ scan file => pescan, clamscan, https://github.com/decalage2/balbuzard
 
 
 ## youtube
+
+https://www.youtube.com/@c3rb3ru5d3d53c
+https://www.youtube.com/@informationsecurityclubuca8207
+https://www.youtube.com/@CryptoWare
+https://www.youtube.com/@0xdf
+https://www.youtube.com/@huskyhacks
+https://www.youtube.com/@BretWitt
+https://www.youtube.com/@pcsecuritychannel
+
+
