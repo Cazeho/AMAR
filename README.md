@@ -27,7 +27,7 @@ Terraform deployment (in progress)
 |   .zip       | zipdump       |
 | .pdf           |  rtfobj,  pdf-parser.py, peepdf, pdfid   |
 | .lnk           | lnkparser -j  |
-| .exe / .elf           | objdump, pestudio, readelf  |
+| .exe / .elf           | objdump, pestudio, readelf, capa https://github.com/mandiant/capa  |
 | .js           |  |
 
 
