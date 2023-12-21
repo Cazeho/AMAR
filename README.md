@@ -39,6 +39,8 @@ scan file => pescan, clamscan, https://github.com/decalage2/balbuzard
 
 https://github.com/DidierStevens/DidierStevensSuite/tree/master
 
+https://unit42.paloaltonetworks.com/tools/
+
 
 ## youtube
 
