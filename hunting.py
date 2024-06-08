@@ -241,28 +241,7 @@ for result in virustotal_results:
                                     domains_list.extend(iocs_data.get('domains', []))
                                     ips_list.extend(iocs_data.get('ips', []))
 
-
-"""                
-                domains_list.extend(entry.get('tags', []))  # Assuming 'tags' might contain domains
-                c2_list = entry.get('vendor_intel', {}).get('Triage', {}).get('malware_config', [])
-                print(c2_list)
-                for c2 in c2_list:
-                    if 'c2' in c2:
-                        c2_domain = c2['c2'].split(':')[0]
-                        if re.match(r'^[a-zA-Z0-9.-]+$', c2_domain):  # simple domain validation
-                            domains_list.append(c2_domain)
-        triage_info = result.get('triage_info', {})
-        print(triage_info)
-        if triage_info:
-            triage_id = vt_api.extract_triage_id(triage_info.get('link', ''))
-            print(triage_id)
-            if triage_id:
-                triage_report = triage.get_triage_report(triage_id)
-                if 'targets' in triage_report and triage_report['targets']:
-                    iocs_data = triage_report['targets'][0].get('iocs', {})
-                    domains_list.extend(iocs_data.get('domains', []))
-                    ips_list.extend(iocs_data.get('ips', []))
-"""                    
+                
 # Timeframe and hostname for XQL query
 start_time = "2024-04-02 09:35:00 +0200"
 end_time = "2024-04-02 09:42:00 +0200"
