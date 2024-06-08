@@ -276,7 +276,7 @@ print(xql_query)
 
 
 def send_comment(data):
-    url = "http://scootylabs.com/api/articles/145-28/comments?fields=id,author(id,name),text,created,visibility(permittedGroups(id,name),permittedUsers(id,name))"
+    url = f"http://{yt_url}/api/articles/145-28/comments?fields=id,author(id,name),text,created,visibility(permittedGroups(id,name),permittedUsers(id,name))"
     headers = {
         'Authorization': f'Bearer {YOUTRACK_API_KEY}',
         'Content-Type': 'application/json'
