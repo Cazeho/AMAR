@@ -31,3 +31,4 @@ services:
       "clamd",
       "--foreground=true",
       "--config-file=/etc/clamav/clamd.conf"
+      ]
